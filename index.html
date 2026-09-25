@@ -71,12 +71,14 @@
                 
                 <!-- Logo Section -->
                 <div class="flex-shrink-0 flex items-center cursor-pointer">
-                    <img src="https://i.postimg.cc/JhJ6k6h6/png-salix.png" alt="Scalix Logo" class="h-10 object-contain fallback-logo">
-                    <!-- Fallback visual en caso de que el enlace falle en la demo -->
-                    <span class="hidden font-black text-3xl tracking-tight text-white flex items-center logo-text-fallback">
-                        sca<span class="text-violet-600">lix</span>
-                    </span>
-                </div>
+    <!-- Cambiamos la ruta externa por una local y agregamos fetchpriority y loading -->
+    <img src="./png salix.png" alt="Scalix Logo" class="h-10 object-contain fallback-logo" fetchpriority="high" loading="eager">
+    
+    <!-- Fallback visual en caso de que el enlace falle en la demo -->
+    <span class="hidden font-black text-3xl tracking-tight text-white flex items-center logo-text-fallback">
+        sca<span class="text-violet-600">lix</span>
+    </span>
+</div>
                 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
